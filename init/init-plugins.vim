@@ -517,7 +517,17 @@ if index(g:bundle_group, 'leaderf') >= 0
 	endif
 endif
 
-
+Plug 'jupyter-vim/jupyter-vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'Valloric/YouCompleteMe'
+Plug 'lervag/vimtex'
+Plug 'Yggdroot/indentLine'
+Plug 'sillybun/vim-repl'
+Plug 'jiangmiao/auto-pairs'
+Plug 'liuchengxu/space-vim-dark'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 "----------------------------------------------------------------------
 " 结束插件安装
 "----------------------------------------------------------------------
